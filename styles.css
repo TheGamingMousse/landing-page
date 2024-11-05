@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.header, .intro, .basic-info, .language-exp {
+  padding: 0 clamp(10vw 25vw 30vw);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #eceff4;
+  height: 72px;
+  font-size: 20px;
+  font-weight: 600;
+  /* padding: 0 25vw; */
+  color: #1F2937;
+}
+
+.header img {
+  height: 72px;
+  width: auto;
+}
+
+.page-top {
+  background-color: #2e3440;
+  display: flex;
+}
+
+.intro {
+  background-color: #2e3440;
+  display: flex;
+  padding: 0 25vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro img {
+  margin: 32px;
+  height: 300px;
+  width: auto;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  color: #eceff4;
+}
+
+.bold-top {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.normal-bottom {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* aaaaa why doesn't this work */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #eceff4;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh 25vw;
+}
+
+.logo-container {
+  display: flex;
+  gap: 70px;
+  margin: 40px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 150px;
+  width: auto;
+  margin-bottom: 32px;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20vw;
+  margin-bottom: 32px;
+}
+
+.language-exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 10vh 25vw;
+  background-color: #d8dee9;
+}
